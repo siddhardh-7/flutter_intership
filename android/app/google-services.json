@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "607147272013",
+    "project_id": "flutter-intership-7e18d",
+    "storage_bucket": "flutter-intership-7e18d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607147272013:android:f13c8e09655df3cbfab904",
+        "android_client_info": {
+          "package_name": "com.example.flutter_intership"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607147272013-k6c6on910ut92f5fhbdp6frm6mo6qpsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAfjW30mvqW93Z7JNaH255V3tz6MwOJpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607147272013-k6c6on910ut92f5fhbdp6frm6mo6qpsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
