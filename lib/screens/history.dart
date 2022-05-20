@@ -68,8 +68,7 @@ class _HistoryState extends State<History> {
                       child: ClipRRect(
                           borderRadius:
                               BorderRadius.circular((Dimensions.borderRadius5)),
-                          child:
-                              Image.asset('assets/images/homepage_pic.jpeg')),
+                          child: Image.asset('assets/images/homepage_pic.jpg')),
                     ),
                     Column(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -138,8 +137,7 @@ class _HistoryState extends State<History> {
                       child: ClipRRect(
                           borderRadius:
                               BorderRadius.circular((Dimensions.borderRadius5)),
-                          child:
-                              Image.asset('assets/images/homepage_pic.jpeg')),
+                          child: Image.asset('assets/images/homepage_pic.jpg')),
                     ),
                     Column(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -208,8 +206,7 @@ class _HistoryState extends State<History> {
                       child: ClipRRect(
                           borderRadius:
                               BorderRadius.circular((Dimensions.borderRadius5)),
-                          child:
-                              Image.asset('assets/images/homepage_pic.jpeg')),
+                          child: Image.asset('assets/images/homepage_pic.jpg')),
                     ),
                     Column(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -278,8 +275,7 @@ class _HistoryState extends State<History> {
                       child: ClipRRect(
                           borderRadius:
                               BorderRadius.circular((Dimensions.borderRadius5)),
-                          child:
-                              Image.asset('assets/images/homepage_pic.jpeg')),
+                          child: Image.asset('assets/images/homepage_pic.jpg')),
                     ),
                     Column(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -348,8 +344,7 @@ class _HistoryState extends State<History> {
                       child: ClipRRect(
                           borderRadius:
                               BorderRadius.circular((Dimensions.borderRadius5)),
-                          child:
-                              Image.asset('assets/images/homepage_pic.jpeg')),
+                          child: Image.asset('assets/images/homepage_pic.jpg')),
                     ),
                     Column(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -418,8 +413,7 @@ class _HistoryState extends State<History> {
                       child: ClipRRect(
                           borderRadius:
                               BorderRadius.circular((Dimensions.borderRadius5)),
-                          child:
-                              Image.asset('assets/images/homepage_pic.jpeg')),
+                          child: Image.asset('assets/images/homepage_pic.jpg')),
                     ),
                     Column(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,

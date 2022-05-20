@@ -32,7 +32,7 @@ class _CountingScreenState extends State<CountingScreen> {
               ),
               child: const Center(
                 child: Text(
-                  '32',
+                  '4',
                   style: TextStyle(fontSize: 32),
                 ),
               ),
@@ -100,7 +100,7 @@ class _CountingScreenState extends State<CountingScreen> {
               height: Dimensions.screenWidth - (Dimensions.padding20 * 2),
               decoration: BoxDecoration(
                 image: const DecorationImage(
-                  image: AssetImage('assets/images/homepage_pic.jpeg'),
+                  image: AssetImage('assets/images/homepage_pic.jpg'),
                   fit: BoxFit.cover,
                 ),
                 borderRadius: BorderRadius.circular(Dimensions.borderRadius12),

@@ -36,7 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: ClipRRect(
                 borderRadius:
                     BorderRadius.circular(2 * Dimensions.borderRadius5),
-                child: Image.asset("assets/images/homepage_pic.jpeg"),
+                child: Image.asset("assets/images/homepage_pic.jpg"),
               ),
             ),
             Padding(
