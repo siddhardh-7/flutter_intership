@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_intership/screens/counting_screen.dart';
+import 'package:flutter_intership/screens/history.dart';
 import 'package:flutter_intership/screens/home_screen.dart';
 import 'package:flutter_intership/screens/user.dart';
 import 'package:flutter_intership/utilities/constants.dart';
@@ -21,7 +23,9 @@ class _HomeState extends State<Home> {
       case 1:
         return HomeScreen();
       case 2:
-        return Text("screen3");
+        return History();
+      case 3:
+        return CountingScreen();
 
       default:
         return Text("Error");

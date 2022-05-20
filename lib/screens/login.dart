@@ -37,7 +37,7 @@ class _LoginState extends State<Login> {
       child: Column(
         children: [
           Container(
-            margin: EdgeInsets.only(top: Dimensions.loginTopmargin),
+            margin: EdgeInsets.only(top: Dimensions.loginTopMargin),
             height: Dimensions.loginLogoHeight,
             child: Hero(
                 tag: "logo",

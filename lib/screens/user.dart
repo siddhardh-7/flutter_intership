@@ -45,7 +45,7 @@ class _UserState extends State<User> {
               margin: EdgeInsets.all(Dimensions.padding20),
               padding: EdgeInsets.all(Dimensions.padding20 / 2),
               width: Dimensions.screenWidth - (Dimensions.padding20 * 2),
-              height: 150,
+              height: Dimensions.height10 * 15,
               decoration: BoxDecoration(
                 color: kAppColor,
                 borderRadius: BorderRadius.circular(Dimensions.borderRadius12),

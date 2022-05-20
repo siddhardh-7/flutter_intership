@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_intership/screens/counting_screen.dart';
 
 import '../utilities/constants.dart';
 import '../utilities/dimensions.dart';
@@ -83,28 +84,34 @@ class _HomeScreenState extends State<HomeScreen> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Container(
-                      margin: EdgeInsets.all(Dimensions.height10),
-                      height: Dimensions.homeBoxHeight,
-                      width: (Dimensions.screenWidth -
-                              (8 * Dimensions.padding20)) /
-                          2,
-                      decoration: BoxDecoration(
-                        color: kAppColor,
-                        borderRadius:
-                            BorderRadius.circular(Dimensions.borderRadius5),
-                        boxShadow: const [
-                          BoxShadow(
-                            offset: Offset(5, 5),
-                            blurRadius: 7.0,
-                          ),
-                        ],
-                      ),
-                      child: Icon(
-                        Icons.photo,
-                        color: Colors.white,
-                        size: Dimensions.homeBoxHeight -
-                            (6 * Dimensions.height10),
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, CountingScreen.id);
+                      },
+                      child: Container(
+                        margin: EdgeInsets.all(Dimensions.height10),
+                        height: Dimensions.homeBoxHeight,
+                        width: (Dimensions.screenWidth -
+                                (8 * Dimensions.padding20)) /
+                            2,
+                        decoration: BoxDecoration(
+                          color: kAppColor,
+                          borderRadius:
+                              BorderRadius.circular(Dimensions.borderRadius5),
+                          boxShadow: const [
+                            BoxShadow(
+                              offset: Offset(5, 5),
+                              blurRadius: 7.0,
+                              color: Colors.grey,
+                            ),
+                          ],
+                        ),
+                        child: Icon(
+                          Icons.photo,
+                          color: Colors.white,
+                          size: Dimensions.homeBoxHeight -
+                              (6 * Dimensions.height10),
+                        ),
                       ),
                     ),
                     SizedBox(
@@ -134,6 +141,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           BoxShadow(
                             offset: Offset(5, 5),
                             blurRadius: 7.0,
+                            color: Colors.grey,
                           ),
                         ],
                       ),

@@ -1,10 +1,11 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
+import 'package:flutter_intership/screens/counting_screen.dart';
+import 'package:flutter_intership/screens/history.dart';
 import 'package:flutter_intership/screens/home.dart';
 import 'package:flutter_intership/screens/login.dart';
 import 'package:flutter_intership/screens/main_page.dart';
-import 'package:flutter_intership/utilities/dimensions.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 void main() async {
@@ -23,6 +24,8 @@ class MyApp extends StatelessWidget {
       routes: {
         Home.id: (context) => Home(),
         Login.id: (context) => Login(),
+        CountingScreen.id: (context) => CountingScreen(),
+        History.id: (context) => History(),
       },
       home: Scaffold(
         body: AnimatedSplashScreen(
