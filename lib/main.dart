@@ -8,7 +8,7 @@ import 'package:flutter_intership/screens/login.dart';
 import 'package:flutter_intership/screens/main_page.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
-void main() async {
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   runApp(const MyApp());
